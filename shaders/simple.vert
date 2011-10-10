@@ -1,11 +1,10 @@
-#version 140
+#version 120
+attribute vec3 vertPosition;
+attribute vec3 mycolor;
+varying vec3 color;
 
-in vec3 vertPosition;
-in vec3 vertColor;
-out vec4 color;
-
-void main(void)
+void main()
 {
-    gl_Position = vec4( vertPosition, 1.0f );
-    color = vec4( vertColor, 1.0f );
+    gl_Position = vec4( vertPosition, 1.0 );
+    color = mycolor;
 }

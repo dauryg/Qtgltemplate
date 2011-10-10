@@ -1,6 +1,8 @@
 <RCC>
     <qresource prefix="/">
-        <file>shaders/simple.frag</file>
-        <file>shaders/simple.vert</file>
+        <file alias="simple.frag">shaders/simple.frag</file>
+        <file alias="simple.vert">shaders/simple.vert</file>
+        <file alias="forward.vert">shaders/forward.vert</file>
+        <file alias="forward.frag">shaders/foward.frag</file>
     </qresource>
 </RCC>

@@ -22,18 +22,11 @@ HEADERS  += \
 
 OTHER_FILES += \
     shaders/simple.vert \
-    shaders/simple.frag
+    shaders/simple.frag \
+    shaders/forward.vert \
+    shaders/foward.frag
 
 RESOURCES += \
     shaders.qrc
-
-
-
-
-
-
-
-
-
 
 

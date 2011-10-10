@@ -9,6 +9,8 @@ class GlCanvas: public QGLWidget
     Q_OBJECT
 
     private:
+        GLuint vboHandle, programHandle, vertHandle, fragHandle;
+        bool forwardCompatible;
         void initVBO();
         void initShaders();
         void initGlew();
