@@ -1,8 +1,3 @@
-#-------------------------------------------------
-#
-# Project created by QtCreator 2011-10-10T00:52:39
-#
-#-------------------------------------------------
 
 QT       += core gui opengl
 
@@ -24,7 +19,7 @@ OTHER_FILES += \
     shaders/simple.vert \
     shaders/simple.frag \
     shaders/forward.vert \
-    shaders/foward.frag
+    shaders/forward.frag
 
 RESOURCES += \
     shaders.qrc
