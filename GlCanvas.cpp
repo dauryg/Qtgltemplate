@@ -18,9 +18,9 @@ THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
 #include "GlCanvas.h"
-#include <QtOpenGL>
 #include <iostream>
 #include <QDebug>
+#include <QtGui>
 
 GlCanvas::GlCanvas(QWidget *parent)
     : QGLWidget(parent),vboHandle(0),vertHandle(0),fragHandle(0),programHandle(0),forwardCompatible(false)
